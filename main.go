@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/al31n/go-build-flag-example/pkg/version"
+)
 
 func main() {
-	fmt.Println("hello")
+	fmt.Println(version.GetVersion())
 }

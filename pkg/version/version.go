@@ -16,7 +16,7 @@ var (
 	Experimental string
 )
 
-func GetVersionString() string {
+func GetVersion() string {
 	experimental := false
 	if Experimental != "" {
 		experimental = true
