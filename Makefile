@@ -10,7 +10,7 @@ LDFLAGS=-ldflags "-s \
 	-X $(VERSIONPATH).Version=$(VERSION) \
 	-X $(VERSIONPATH).GitCommit=$(GITCOMMIT) \
 	-X '$(VERSIONPATH).BuildDate=$(BUILDDATE)' \
-	-X '$(VERSIONPATH).BuildDate=$(EXPERIMENTAL)'"
+	-X '$(VERSIONPATH).Experimental=$(EXPERIMENTAL)'"
 
 all: build
 
